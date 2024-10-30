@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './componente03.component.css'
 })
 export class Componente03Component {
-  imagem:string = "assets/anao.jfif"
+  imagem:string = ""
   alterarImagem(){
     if(this.imagem === "assets/anao.jfif"){
       this.imagem = "assets/elfo.jfif"
