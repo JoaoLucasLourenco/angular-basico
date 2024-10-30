@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './componente04.component.css'
 })
 export class Componente04Component {
-  exibir:boolean = true
+  exibir:boolean = false
   trocarVisibilidade(){
     if(this.exibir===true){
       this.exibir=false
