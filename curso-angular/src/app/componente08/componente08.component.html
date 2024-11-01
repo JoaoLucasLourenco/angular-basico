@@ -1,10 +1,19 @@
 <h1>Componente 08</h1>
-
+<h2>Condição</h2>
 @if(media>=6){
     <p>Aprovado(a)</p>
 }@else if (media>=4) {
     <p>Em exame</p>
 }@else {
     <p>Reprovado</p>
+}
+
+<br>
+
+<h2>Repetição</h2>
+
+@for (n of nomes; track $index) {
+
+    <p>{{$index}} - {{n}}</p>
 }
 <hr>
