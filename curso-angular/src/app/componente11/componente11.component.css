@@ -1,3 +1,7 @@
+*{
+    transition: 300ms;
+}
+
 form{
     width: 500px;
     margin: 30px auto;
